@@ -1,0 +1,263 @@
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    /* Navbar Styles */
+    .navbar {
+        background-color: rgb(0, 210, 198);
+        border-bottom: 1px solid white;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1000;
+        height: 106px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 20px;
+    }
+
+    .navbar-brand img {
+        height: 80px;
+        width: 80px;
+    }
+
+    .navbar-nav {
+        display: flex;
+        list-style: none;
+        gap: 40px;
+        margin-right: 50px;
+    }
+
+    .nav-link {
+        color: white;
+        font-size: 20px;
+        font-weight: 600;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-decoration: none;
+    }
+
+    .nav-link:hover {
+        text-decoration: underline;
+    }
+
+    .navbar-right {
+        display: flex;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .social-icons {
+        display: flex;
+        gap: 5px;
+        height: 25px;
+    }
+
+    .social-icons img {
+        height: 25px;
+        width: auto;
+    }
+
+    /* Main content */
+    .main-content {
+        margin-top: 106px;
+    }
+
+    /* First section */
+    .first-section {
+        position: relative;
+        height: 100vh;
+    }
+
+    .first-section img {
+        width: 100%;
+        height: 100vh;
+        object-fit: cover;
+    }
+
+    .text-content {
+        position: absolute;
+        top: 250px;
+        left: 120px;
+        color: white;
+    }
+
+    .text-content h1 {
+        font-weight: bolder;
+        margin-bottom: 20px;
+    }
+
+    .sea,
+    .swee {
+        display: block;
+        font-size: 70px;
+      /*  font-weight: 800;  Edi Ithill Font family correct alla athod font weight kurch kutiyath anu Nittum correct avunilla Ni external font install cheyth nokiko avar use cheyunath (korolev-rounded) anu */
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .button {
+        color: white;
+        background: transparent;
+        border: 2px solid white;
+        border-radius: 30px;
+        padding: 8px 20px;
+        font-size: 1.2rem;
+        cursor: pointer;
+    }
+
+    .button:hover {
+        background-color: rgba(255, 255, 255, 0.1);
+    }
+
+    /* Second section */
+    .second-section {
+        position: relative;
+        height: 100vh;
+    }
+
+    .second-section img {
+        width: 100%;
+        height: 100vh;
+        object-fit: cover;
+    }
+
+    .green1 {
+        position: absolute;
+        top: 294px;
+        left: 448px;
+        background-color: rgba(9, 101, 49, 0.816);
+        color: white;
+        padding: 20px;
+        height: 180px;
+        max-width: 640px;
+        width: 640px;
+        text-align: center;
+        border-radius: 100px;
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #head1 {
+        font-weight: 500;
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+
+    #para1 {
+        margin-bottom: 15px;
+    }
+
+    .button1 {
+        border: 2px solid white;
+        border-radius: 30px;
+        padding: 7px 15px;
+        font-size: 19px;
+        color: white;
+        text-decoration: none;
+    }
+
+    .button1:hover {
+        background-color: rgba(255, 255, 255, 0.1);
+    }
+
+    /* Third section */
+    .third-section {
+        position: relative;
+        height: 100vh;
+    }
+
+    .third-section img {
+        width: 100%;
+        height: 100vh;
+        object-fit: cover;
+    }
+
+    .green2 {
+        position: absolute;
+        top: 294px;
+        left: 437px;
+        background-color: rgba(9, 101, 49, 0.816);
+        color: white;
+        height: 180px;
+        width: 640px;
+        text-align: center;
+        border-radius: 100px;
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+
+    #head2 {
+        font-size: 25px;
+        font-weight: 500;
+        margin-bottom: 10px;
+    }
+
+    #para2 {
+        margin-bottom: 15px;
+    }
+
+    .button2 {
+        border: 2px solid white;
+        border-radius: 30px;
+        padding: 7px 20px;
+        font-size: 19px;
+        color: white;
+        text-decoration: none;
+    }
+
+    .button2:hover {
+        background-color: rgba(255, 255, 255, 0.1);
+    }
+
+    /* Footer */
+    .footer {
+        background-color: #3e3e3e;
+        color: white;
+        padding: 20px 0 ;
+    }
+
+    .footer-container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+
+    .footer-links {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .footer-links a {
+        color: white;
+        text-decoration: none;
+        margin: 0 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 11px;
+        display: inline-block;
+    }
+
+    .footer-links a:hover {
+        text-decoration: underline;
+    }
+
+    .footer-bottom {
+        text-align: center;
+        padding-top: 10px;
+        margin-top: 11px;
+        font-size: 11px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        /* border-top: 1px solid #555; Ith vengi use cheytha mathi Ith line varan vendi anu 7up tte website ill avar use cheyunilla  */
+    }
